@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+/*project css*/
+.navbar-listItems{
+  color:#ec9a34;
+}
+
+i:hover{
+  color:#ec9a34;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
