@@ -3,13 +3,6 @@ import "../App.css";
 import logo from "../assets/images/heart.png";
 
 export default function Navbar() {
-    const SearchForm =()=>{
-        let searchForm = document.querySelector('.search-form');
-        document.querySelector('#search-btn').onclick = () =>{
-            searchForm.classList.toggle('active');
-        }
-    }
- 
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -50,10 +43,8 @@ export default function Navbar() {
               </li>
               <li className="nav-item mx-1">
                 <a className="nav-link" href="#about">
-                
                   <i className="fa-solid fa-eject mx-2"></i>
                   <i>About</i>
-               
                 </a>
               </li>
               <li className="nav-item mx-1">
@@ -80,23 +71,24 @@ export default function Navbar() {
                   <i>Contact</i>
                 </a>
               </li>
-              
+
+                <div>
+                    <input class="form-control me-5 mx-5 my-3" type="search" 
+                    placeholder="Search here..." aria-label="Search"/>
+                </div>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">
+                    <i className="fa-solid fa-magnifying-glass fa-xl mx-5 my-4"></i>
+                    </a>
+                </li>
                 <li className="nav-item mx-1">
                     <a className="nav-link" href="#">
                         <div id="search-btn">
-                            <i className="fa-solid fa-cart-shopping fa-xl mx-5 my-4" onClick={SearchForm}></i>
+                            <i className="fa-solid fa-cart-shopping fa-xl  my-4"></i>
                         </div>
                     </a>
                 </li>
-                <div className="search-form">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                </div>
-
-              <li className="nav-item mx-1">
-                <a className="nav-link" href="#">
-                  <i className="fa-solid fa-magnifying-glass fa-xl mx-1 my-4" id="search-btn"></i>
-                </a>
-              </li>
+            
             </ul>
           </div>
         </div>
