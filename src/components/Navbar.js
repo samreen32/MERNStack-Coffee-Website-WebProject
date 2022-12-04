@@ -16,7 +16,7 @@ export default function Navbar() {
             className="d-inline-block align-text-top"
           />
           <p className="d-inline-block align-text-top mx-3 my-2">
-            <i>Bubble Bee Coffeèin</i>{" "}
+            <i>Bubble Bee Coffeèin</i>
           </p>
         </a>
         <div className="container-fluid">

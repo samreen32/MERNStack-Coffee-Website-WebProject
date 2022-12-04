@@ -37,6 +37,10 @@ i:hover{
   color:#ec9a34;
 }
 
+span:hover{
+  color:#ec9a34;
+}
+
 
 @keyframes App-logo-spin {
   from {
