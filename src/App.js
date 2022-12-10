@@ -5,6 +5,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import Menu from "./components/Menu";
+import Reviews from "./components/Reviews";
 
 function App() {
   const myStyle = {
@@ -33,6 +34,7 @@ function App() {
         <Slider />
         <About />
         <Menu />
+        <Reviews />
       </div>
     </>
   );
