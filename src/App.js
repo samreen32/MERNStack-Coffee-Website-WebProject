@@ -1,6 +1,6 @@
 import "./App.css";
-import home from "./assets/images/home2.jpg";
-import coffeeHome from "./assets/images/tea-leaf.png";
+import home from "./assets/images/home.jpg";
+import coffeeHome from "./assets/images/coffee-cup.png";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";

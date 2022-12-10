@@ -13,7 +13,9 @@ export default function About() {
   };
 
   return (
+    <>
     <div className="container" style={{ marginTop: "20%" }}>
+    <h1 style={{textAlign: "center",  color: "#FFBF00", fontSize: "80px"}}><i>About Us</i></h1>
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-5">
@@ -26,10 +28,10 @@ export default function About() {
 
           <div class="col-md-7" style={myStyle}>
             <div class="card-body" style={{color: "white"}}>
-              <h2 class="card-title mx-2 my-3">
+              <h2 class="card-title mx-2 my-3" style={{ color: "#FFBF00"}}>
                 <i>What Makes Our Coffee Special?</i>
               </h2>
-              <p class="card-text mx-2 my-3">
+              <p class="card-text mx-2 my-3" style={{fontSize: "16px"}}>
                 <i>
                   The word "bubble bee coffeèin" is the combination of latin
                   roots, bee meaning "self", and coffeèin meaning "to discover".
@@ -48,5 +50,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }
