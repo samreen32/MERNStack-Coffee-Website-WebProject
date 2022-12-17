@@ -26,9 +26,9 @@ export default function About() {
             />
           </div>
 
-          <div class="col-md-7" style={myStyle}>
+          <div class="col-md-7" style={{backgroundColor: "black", color: "white" }}>
             <div class="card-body" style={{color: "white"}}>
-              <h2 class="card-title mx-2 my-3" style={{ color: "#FFBF00"}}>
+              <h2 class="card-title mx-2 my-3" style={{ color: "#ec9a34"}}>
                 <i>What Makes Our Coffee Special?</i>
               </h2>
               <p class="card-text mx-2 my-3" style={{fontSize: "16px"}}>

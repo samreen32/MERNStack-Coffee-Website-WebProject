@@ -5,7 +5,7 @@ import newDeal from "../assets/images/new.png";
 
 export default function Slider() {
   return (
-    <div className="container" style={{ marginTop: "20%" }}>
+    <div className="container" style={{ marginTop: "20%", backgroundColor: "black", color: "white" }}>
       <div className="row row-content">
         <div className="col">
           <div
@@ -25,21 +25,19 @@ export default function Slider() {
                   className="carousel-caption d-none d-md-block"
                   style={{ color: "#F6EABE" }}
                 >
-                  <h2 style={{color: "black" }}>
-                    <i>
-                      <b>Americano latte</b>
+                  <h2><i><b style={{ color: "#ec9a34"}}>Americano latte</b>
                       <img
                         style={{ width: "6%", height: "6%" }}
                         src={hotDeal}
                       />
-                      <span className="badge badge-pill badge-secondary" style={{color: "red"}}>
+                      <span className="badge badge-pill badge-secondary" style={{ color: "#ec9a34"}}>
                         $14.99
                       </span>
                     </i>
                   </h2>
                   <p className="d-none d-sm-block" style={{fontSize: "20px" }}>
                     <b>
-                      A unique combination of 1/4 espresso and 3/4 milk, and the
+                      A unique <b style={{color: "black"}}>combination of 1/4 </b>espresso and 3/4 milk, and the
                       milk is steamed and frothed. On the other hand, an
                       Americano is made with espresso and double the amount of
                       hot water.
@@ -57,7 +55,7 @@ export default function Slider() {
                 <div
                   className="carousel-caption d-none d-md-block"
                 >
-                  <h2 style={{ color: "black" }}>
+                  <h2 style={{ color: "#ec9a34"}}>
                     <i>
                       <b>Weekend Grand</b>
                     </i>
@@ -65,12 +63,13 @@ export default function Slider() {
                     />
                   </h2>
                   <p className="d-none d-sm-block" style={{ fontSize: "20px" }}>
-                    <b>
-                      Featuring mouthwatering combinations with a choice of five
-                      different tasts, six enticing appetizers, six main entrees
-                      and five choicest desserts. Free flowing bubbly and soft
-                      drink. All for just $19.99 per person
-                    </b>
+                    <b style={{ color: "black" }}>
+                      Featuring mouthwatering comb</b> <b>inations with a choice of five
+                      different tasts, six</b> <b style={{ color: "black" }}>enticing appetizers, 
+                      six main ent</b><b>rees 
+                     and five choicest desserts. Free flowing</b> <b style={{ color: "black" }}>bubbly and soft
+                      drin</b><b>k. All for just $19.99 per person.</b>
+                    
                   </p>
                 </div>
               </div>
@@ -82,17 +81,17 @@ export default function Slider() {
                   alt="Alberto"
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h2 style={{ color: "#FFBF00" }}><i><b>Bee Coffeèin</b></i></h2>
-                  <h4 style={{ color: "black" }}><b><i>Coffeeo Coffeèin</i></b></h4>
+                  <h2><i><b style={{ color: "#ec9a34"}}>Bee Coffeèin</b></i></h2>
+                  <h4><i><b style={{ color: "black" }}>Co</b> <b>ffee Coffeèin</b></i></h4>
         
                   <p className="d-none d-sm-block" style={{ fontSize: "20px" }}>
-                    <b>
-                      Award winning three-star Michelin chef with wide
-                      International Coffee homes. Wormly welcomed customer
-                      having alot of satisfied customers. We believe that coffee
-                      is more than just a drink: It's a culture, an economy, an
-                      art, a science — and a passion.
-                    </b>
+                 
+                     <b>Award</b> <b style={{ color: "black" }}> winning three-star Micheli</b>n <b>chef with wide
+                      International Coffee homes.</b><b style={{ color: "black" }}> Wormly welcomed customer
+                      hav</b><b>ing alot of satisfied customers. We believe that </b> <b style={{ color: "black" }}>coffee
+                      is</b> <b>more than just a drink: It's a culture, an economy, an
+                      art, a science — and a passion.</b>
+                 
                   </p>
                 </div>
               </div>

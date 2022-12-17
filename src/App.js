@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   const myStyle = {
@@ -35,6 +36,7 @@ function App() {
         <About />
         <Menu />
         <Reviews />
+        <Footer />
       </div>
     </>
   );

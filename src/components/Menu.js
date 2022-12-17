@@ -34,7 +34,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Brazilian Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Brazilian Coffee</i></h5>
               <p className="card-text"><i>
                 A full-bodied, low acid coffee, with notes of peanut butter and
                 toffee. Great for a person who is looking for darker roast and a
@@ -54,7 +54,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Cascade Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Cascade Coffee</i></h5>
               <p className="card-text"><i>
                 Our signature espresso blend consisting of a mix of Brazil and
                 Guatemala. Easy to drink with notes of macadamia and dark
@@ -75,7 +75,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Guatemala Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Guatemala Coffee</i></h5>
               <p className="card-text"><i>
                 One of our most approachable and best-selling coffees,notes of
                 milk chocolate and a lemony twist, it'll be everyone's favorite.
@@ -95,7 +95,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Decaf Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Decaf Coffee</i></h5>
               <p className="card-text"><i>
                 Savory and sweet, this Decaf coffee is exactly what you're
                 looking for when you don't want the caffeine but want the taste
@@ -116,7 +116,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Batch Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Batch Coffee</i></h5>
               <p className="card-text"><i>
                 Batch brewed coffee offering dark chocolate flavour with honey
                 mix. This is exactly what is right for your exam prepration.
@@ -136,7 +136,7 @@ export default function Menu() {
               style={{ height: "8rem", width: "8rem", alignSelf: "center" }}
             />
             <div className="card-body" style={{ textAlign: "center" }}>
-              <h5 className="card-title"><i>Nutala Coffee</i></h5>
+              <h5 className="card-title" style={{ color: "#ec9a34"}}><i>Nutala Coffee</i></h5>
               <p className="card-text">
                 <i>
                   It's a combo of hot milk with alot of Nutala beans which are

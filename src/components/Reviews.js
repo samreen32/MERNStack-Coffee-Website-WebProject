@@ -6,7 +6,6 @@ import pic3 from "../assets/images/pic-3.png";
 
 export default function Reviews() {
   const myStyle = {
-    // backgroundImage: `url(${about})`,
     backgroundColor: "black",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
@@ -21,6 +20,7 @@ export default function Reviews() {
       <h1 style={{ textAlign: "center", color: "#FFBF00", fontSize: "80px" }}>
         <i>Customer Review's</i>
       </h1>
+
       <div className="row row row-cols-md-3 g-4">
         <div className="col">
           <div className="card" style={myStyle}>
@@ -46,7 +46,7 @@ export default function Reviews() {
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title mx-2">
+              <h5 className="card-title mx-2" style={{ marginTop: "15px", color: "#ec9a34"}}>
                 <i>Park Chanyeol</i>
               </h5>
               <i class="fa-solid fa-star"></i>
@@ -57,6 +57,7 @@ export default function Reviews() {
             </div>
           </div>
         </div>
+
         <div className="col">
           <div className="card" style={myStyle}>
             <img
@@ -68,8 +69,8 @@ export default function Reviews() {
             <div className="card-body" style={{ textAlign: "center" }}>
               <p className="card-text">
                 <i>
-                  This is one of my favourites.
-                  it in time for my Saturday am coffee.
+                  This is one of my favourites. it in time for my Saturday am
+                  coffee.
                 </i>
               </p>
               <img
@@ -81,7 +82,7 @@ export default function Reviews() {
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title">
+              <h5 className="card-title" style={{ marginTop: "15px", color: "#ec9a34" }}>
                 <i>Jennie</i>
               </h5>
               <i class="fa-solid fa-star"></i>
@@ -116,7 +117,7 @@ export default function Reviews() {
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title">
+              <h5 className="card-title" style={{ marginTop: "15px", color: "#ec9a34" }}>
                 <i>Kai</i>
               </h5>
               <i class="fa-solid fa-star"></i>
@@ -127,7 +128,7 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
