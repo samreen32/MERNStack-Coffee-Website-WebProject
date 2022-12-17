@@ -92,24 +92,24 @@ export default function Navbar() {
                 </li>
 
                 <div className="col px-md-7">
-                  <form class="d-flex mx-5" role="search">
-                    <li className="nav-item mx-1">
+                  <form class="d-flex mx-4">
+                    <li className="col-4 col-sm-4 nav-item mx-2">
                       <a className="nav-link" href="#">
-                        <div id="search-btn">
+                        <div>
                           <i className="fa-solid fa-cart-shopping fa-2xl my-4"></i>
                         </div>
                       </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="col-4 col-sm-4 nav-item">
                       <a className="nav-link" href="#">
-                        <div id="search-btn">
+                        <div>
                           <i class="fa-solid fa-user-plus fa-2xl my-4"></i>
                         </div>
                       </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="col-4 col-sm-4 nav-item">
                       <a className="nav-link" href="#">
-                        <div id="search-btn">
+                        <div>
                           <i className="fa-solid fa-right-to-bracket fa-2xl my-4"></i>
                         </div>
                       </a>
