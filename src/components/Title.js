@@ -2,19 +2,27 @@ import React from 'react';
 import coffeeHome from "../assets/images/coffee-cup.png";
 
 
-
 export default function Title() {
   return (
-    <div style={{ marginLeft: "36%", marginTop: "5%"}}>
-        <img
-            style={{ width: "45%", height: "45%", marginTop: "15%" }}
-            src={coffeeHome}
-        />
-        <h1 style={{ color: "#FFBF00", marginLeft: "1%", fontSize: 65 }}>
-            <i style={{ marginLeft: "2.5%" }}>
-                Bubble Bee <br /> **Coffeèin**
-            </i>
-        </h1>
-  </div>
+    <>
+    <div class="container">
+        <div class="card bg-transparent text-dark">
+            <div style={{marginLeft: "36%", marginTop: "5%"}}>
+                <img class="card-img-top"
+                    style={{ width: "45%", height: "45%", marginTop: "15%" }}
+                    src={coffeeHome}
+                />
+                <div class="card-body" style={{marginLeft: "-6%"}}>
+                    <h1 class="card-title" style={{ color: "#FFBF00", fontSize: "5vw"}}>
+                        <p class="card-text mx-1"><i className='mx-3'>
+                           Bubble Bee</i><br /><i>**Coffeèin**
+                        </i></p>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </>
   )
 }

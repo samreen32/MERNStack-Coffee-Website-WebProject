@@ -32,7 +32,6 @@
 .navbar-listItems{
   color:#ec9a34;
 }
-
 i:hover{
   color:#ec9a34;
 }
@@ -51,6 +50,46 @@ span:hover{
 }
 img{
   cursor: pointer;
+}
+.button{
+  cursor: pointer;
+  display: inline-block;
+  background-color: #ec9a34;
+  color: floralwhite;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+button:hover{
+  color:black;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: rgb(48, 47, 47);
+  color: floralwhite; 
+}
+.inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background: brown ; */
+  border:black;
+}
+.inputBox input{
+  width: 100%;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
 }
 
 @keyframes App-logo-spin {

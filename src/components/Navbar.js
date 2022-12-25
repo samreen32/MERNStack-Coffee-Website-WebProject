@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import logo from "../assets/images/heart.png";
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
     // style={{position: "fixed", marginTop: "-5%"}}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img
             src={logo}
             alt="Logo"
@@ -21,7 +22,7 @@ export default function Navbar() {
               <i>Bubble Bee Coffeèin</i>
             </h3>
           </p>
-        </a>
+        </Link>
         <div className="App">
           <div className="container-fluid">
             <button
@@ -41,54 +42,54 @@ export default function Navbar() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
                 <li className="nav-item mx-1">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     <div className="navbar-listItems">
                       <i className="fa-solid fa-mug-saucer fa-xl mx-2 my-2"></i>
                       <h6 className="my-1">
                         <i>Home</i>
                       </h6>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <a className="nav-link" href="#about">
+                  <Link className="nav-link" to="/About">
                     <i className="fa-solid fa-eject fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>About</i>
                     </h6>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/Menu">
                     <i className="fa-solid fa-bars fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Menu</i>
                     </h6>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/Service">
                     <i className="fa-solid fa-bell-concierge fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Service</i>
                     </h6>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/Review">
                     <i className="fa-solid fa-comment fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Review</i>
                     </h6>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/ContactUs">
                     <i className="fa-solid fa-address-card fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Contact</i>
                     </h6>
-                  </a>
+                  </Link>
                 </li>
 
                 <div className="col px-md-7">

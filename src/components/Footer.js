@@ -22,7 +22,7 @@ export default function Footer() {
                                 <li><a href="./Menu.js">Menu</a></li>
                                 <li><a href="#">Service</a></li>
                                 <li><a href="#">Review</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="./ContactUs.js">Contact</a></li>
                             </ul>
                         </div>
                         <div class="col-8 col-sm-7 mx-4 my-4">
