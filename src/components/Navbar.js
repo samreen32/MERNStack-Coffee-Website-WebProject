@@ -102,18 +102,18 @@ export default function Navbar() {
                       </a>
                     </li>
                     <li className="col-4 col-sm-4 nav-item">
-                      <a className="nav-link" href="#">
+                      <Link className="nav-link" to="/Signup">
                         <div>
                           <i class="fa-solid fa-user-plus fa-2xl my-4"></i>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li className="col-4 col-sm-4 nav-item">
-                      <a className="nav-link" href="#">
+                      <Link className="nav-link" to="/Login">
                         <div>
                           <i className="fa-solid fa-right-to-bracket fa-2xl my-4"></i>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </form>
                 </div>

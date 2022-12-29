@@ -15,7 +15,7 @@ export default function About() {
   return (
     <>
     <div className="container" style={{ marginTop: "15%" }}>
-    <h1 style={{textAlign: "center",  color: "#FFBF00", fontSize: "80px"}}><i>About Us</i></h1>
+    <h1 style={{textAlign: "center",  color: "#F0A500", fontSize: "80px"}}><i>About Us</i></h1>
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-5">

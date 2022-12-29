@@ -54,12 +54,15 @@ img{
 .button{
   cursor: pointer;
   display: inline-block;
-  background-color: #ec9a34;
   color: floralwhite;
   padding: 1rem 1.75rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
   transition: 0.3s;
+  border-radius: 55px;
+  background-color: #F0A500;
+  font-size: 2vw;
+  border: none;
 }
 .button--flex {
   display: inline-flex;
@@ -91,7 +94,83 @@ button:hover{
   text-transform: none;
   background:none;
 }
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex; 
+  padding-top: 90px;
+  padding-bottom: 90px;
+   height: 100;
+   width: 100;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./assets/images/coffee-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
 
+
+.imgs {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.profile {
+height: 100px;
+width: 100px;
+border-radius: 130px;
+} 
+
+input{
+  width: 450px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px rgb(253, 253, 251);
+  border: #F0A500;
+  outline: auto;
+ 
+  opacity: 'transparent';
+}
+
+.email{
+  height: 20px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name{
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input{
+  padding-top: 20px;
+}
+
+/* button{
+  width: 180px;
+  height: 40px;
+  border-radius: 60px;
+  background-color: #F0A500;
+  color: white;
+  font-size: 25px;
+  border: none;
+} */
+.login-button{
+  padding-top: 25px;
+}
+
+.link{
+  font-size: 25px;
+  font-weight: 400;
+
+
+}
+a{
+   color: rgb(32, 32, 34);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

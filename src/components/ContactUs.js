@@ -37,13 +37,13 @@ export default function ContactUs() {
                 alignItems: "center",
               }}
             >
-              <h1 style={{ fontSize: "4vw", color: "#ec9a34" }}> Contact Us</h1>
+              <h1 style={{ fontSize: "4vw", color: "#F0A500" }}> Contact Us</h1>
               <p className="my-3">
-                <b>
+                <b><i>
                   We take inspiration from the World's best cuisines, and create
                   a unique fusion experience. Our lipsmacking creations will
                   tickle your culinary senses!
-                </b>
+                </i> </b>
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function ContactUs() {
         </div>
       </header>
 
-      <div className="container">
+      <div className="container" style={{marginTop: "15%"}}>
         <div class="card bg-transparent mb-3 my-5" style={{ maxHeight: "50%"}}>
           <div class="row g-0">
             <div class="col-md-4">
@@ -67,24 +67,24 @@ export default function ContactUs() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h2 class="card-title" style={{ textAlign: "center", color: "#ec9a34" }}>
+                <h1 class="card-title" style={{ textAlign: "center", color: "#F0A500" }}>
                   Get In Touch
-                </h2>
+                </h1>
                 <div class="col-12 col-md-9"  style={{alignItems: "center", margin: "auto"}} >
                   <form  style={{textAlign: "center" }} >
                     <div class="inputBox mb-3">
                     <i class="fa-solid fa-user fa-xl"></i>
-                      <input style={{textAlign: "center", background: "floralwhite" }} type="text" class="form-control mx-3" placeholder="name" />
+                      <input style={{textAlign: "center", background: "floralwhite" }} type="text" class="form-control mx-3" placeholder="Name" />
                     </div>
                     <div class="inputBox mb-3">
                       <span class="fas fa-envelope fa-xl"></span>
-                      <input style={{textAlign: "center", background: "floralwhite" }} type="email" class="form-control mx-3" placeholder="email" />
+                      <input style={{textAlign: "center", background: "floralwhite" }} type="email" class="form-control mx-3" placeholder="Email" />
                     </div>
                     <div class="inputBox mb-3">
                     <i class="fa-solid fa-phone fa-2xl"></i>
-                      <input style={{textAlign: "center", background: "floralwhite" }} type="number" class="form-control mx-3" placeholder="number" />
+                      <input style={{textAlign: "center", background: "floralwhite" }} type="number" class="form-control mx-3" placeholder="Number" />
                     </div>
-                    <button type="submit" class="button button--flex" >Contact Us</button>
+                    <button type="submit" class="button button--flex" style={{height: "20%"}}>Contact Us</button>
                   </form>
                 </div>
               </div>
@@ -92,7 +92,10 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+      <div style={{marginTop: "20%"}}>
       <Footer /> 
+
+      </div>
     </div>
    
     </>

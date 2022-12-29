@@ -13,7 +13,7 @@ export default function Title() {
                     src={coffeeHome}
                 />
                 <div class="card-body" style={{marginLeft: "-6%"}}>
-                    <h1 class="card-title" style={{ color: "#FFBF00", fontSize: "5vw"}}>
+                    <h1 class="card-title" style={{ color: "#F0A500", fontSize: "5vw"}}>
                         <p class="card-text mx-1"><i className='mx-3'>
                            Bubble Bee</i><br /><i>**Coffeèin**
                         </i></p>

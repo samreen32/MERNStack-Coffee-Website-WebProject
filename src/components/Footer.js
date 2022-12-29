@@ -9,7 +9,7 @@ import card4 from "../assets/images/card4.png";
 export default function Footer() {
   return (
   
-    <footer class="footer" style={{backgroundColor: "black", color: "white", marginTop: "15%" }}>
+    <footer class="footer" style={{backgroundColor: "black", color: "white"}}>
         <div class="container">
             <div class="row mx-3">
                 <div class="col">
@@ -17,12 +17,12 @@ export default function Footer() {
                         <div class="col-4 offset-1 col-sm-2 my-4" >
                             <h5 style={{ color: "#ec9a34"}}><b><i>Links</i></b></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="./About.js">About</a></li>
-                                <li><a href="./Menu.js">Menu</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Review</a></li>
-                                <li><a href="./ContactUs.js">Contact</a></li>
+                                <li><a style={{color: "white"}} href="#">Home</a></li>
+                                <li><a style={{color: "white"}} href="./About.js">About</a></li>
+                                <li><a style={{color: "white"}} href="./Menu.js">Menu</a></li>
+                                <li><a style={{color: "white"}} href="#">Service</a></li>
+                                <li><a style={{color: "white"}} href="#">Review</a></li>
+                                <li><a style={{color: "white"}} href="./ContactUs.js">Contact</a></li>
                             </ul>
                         </div>
                         <div class="col-8 col-sm-7 mx-4 my-4">
@@ -33,8 +33,8 @@ export default function Footer() {
                                 PAKISTAN</i><br/>
                                 <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br/>
                                 <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br/>
-                                <i class="fa fa-envelope fa-lg"></i>: {"\n"}
-                                <a href="mailto:beeCoffeèin@food.net">beeCoffeèin@food.net</a>
+                                <i class="fa fa-envelope fa-lg"></i>: 
+                                <a style={{color: "white"}} href="mailto:beeCoffeèin@food.net">beeCoffeèin@food.net</a>
                             </address>
                         </div>
                     </div>

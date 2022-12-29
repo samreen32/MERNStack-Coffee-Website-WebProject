@@ -21,7 +21,7 @@ export default function Menu() {
 
   return (
     <div className="container" style={{ marginTop: "15%" }}>
-      <h1 style={{ textAlign: "center", color: "#FFBF00", fontSize: "80px" }}>
+      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "80px" }}>
         <i>Our Menu</i>
       </h1>
       <div className="row row row-cols-md-3 g-4">

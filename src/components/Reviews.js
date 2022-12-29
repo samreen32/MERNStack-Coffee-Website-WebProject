@@ -17,7 +17,7 @@ export default function Reviews() {
 
   return (
     <div className="container" style={{ marginTop: "15%" }}>
-      <h1 style={{ textAlign: "center", color: "#FFBF00", fontSize: "80px" }}>
+      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "80px" }}>
         <i>Customer Review's</i>
       </h1>
 

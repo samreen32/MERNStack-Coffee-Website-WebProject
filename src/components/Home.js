@@ -26,7 +26,10 @@ function App() {
         <About />
         <Menu />
         <Reviews />
+        <div style={{marginTop: "20%"}}>
         <Footer />
+
+        </div>
       </div>
     </>
   );
