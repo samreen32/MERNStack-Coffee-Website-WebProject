@@ -29,9 +29,7 @@
 }
 
 /*project css*/
-.navbar-listItems{
-  color:#ec9a34;
-}
+
 i:hover{
   color:#ec9a34;
 }
@@ -55,13 +53,11 @@ img{
   cursor: pointer;
   display: inline-block;
   color: floralwhite;
-  padding: 1rem 1.75rem;
-  border-radius: 0.5rem;
-  font-weight: var(--font-medium);
+  padding: 1rem 1.8rem;
+  border-radius: 5rem;
   transition: 0.3s;
-  border-radius: 55px;
   background-color: #F0A500;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border: none;
 }
 .button--flex {
@@ -130,7 +126,6 @@ input{
   box-shadow: inset 0px 0px 25px 0px rgb(253, 253, 251);
   border: #F0A500;
   outline: auto;
- 
   opacity: 'transparent';
 }
 
@@ -143,30 +138,18 @@ input{
 
 .name{
   padding-left: 70px;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 .second-input{
   padding-top: 20px;
 }
 
-/* button{
-  width: 180px;
-  height: 40px;
-  border-radius: 60px;
-  background-color: #F0A500;
-  color: white;
-  font-size: 25px;
-  border: none;
-} */
 .login-button{
   padding-top: 25px;
 }
 
 .link{
-  font-size: 25px;
-  font-weight: 400;
-
-
+  font-size: 1.5vw;
 }
 a{
    color: rgb(32, 32, 34);

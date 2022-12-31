@@ -21,11 +21,11 @@ export default function Menu() {
 
   return (
     <div className="container" style={{ marginTop: "15%" }}>
-      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "80px" }}>
+      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "5vw" }}>
         <i>Our Menu</i>
       </h1>
       <div className="row row row-cols-md-3 g-4">
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu1}
@@ -45,7 +45,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu2}
@@ -66,7 +66,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu3}
@@ -86,7 +86,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu4}
@@ -107,7 +107,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu5}
@@ -127,7 +127,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={menu6}

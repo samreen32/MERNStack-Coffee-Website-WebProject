@@ -11,18 +11,17 @@ export default function Reviews() {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    height: "330px",
     color: "white",
   };
 
   return (
     <div className="container" style={{ marginTop: "15%" }}>
-      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "80px" }}>
+      <h1 style={{ textAlign: "center", color: "#F0A500", fontSize: "5vw" }}>
         <i>Customer Review's</i>
       </h1>
 
       <div className="row row row-cols-md-3 g-4">
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={qoutes}
@@ -33,8 +32,8 @@ export default function Reviews() {
             <div className="card-body" style={{ textAlign: "center" }}>
               <p className="card-text">
                 <i>
-                  I like this coffee it's really smooth and has an after taste
-                  of chocolate. Service was brilliant.
+                  Coffee was really smooth and has after taste
+                  of chocolate.
                 </i>
               </p>
               <img
@@ -42,11 +41,11 @@ export default function Reviews() {
                 style={{
                   height: "6rem",
                   width: "6rem",
-                  borderRadius: "50%",
+                  borderRadius: "3.5vw",
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title mx-2" style={{ marginTop: "15px", color: "#ec9a34"}}>
+              <h5 className="card-title mx-2 my-2" style={{ color: "#ec9a34"}}>
                 <i>Park Chanyeol</i>
               </h5>
               <i class="fa-solid fa-star"></i>
@@ -58,7 +57,7 @@ export default function Reviews() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={qoutes}
@@ -69,8 +68,7 @@ export default function Reviews() {
             <div className="card-body" style={{ textAlign: "center" }}>
               <p className="card-text">
                 <i>
-                  This is one of my favourites. it in time for my Saturday am
-                  coffee.
+                  This is one of my favourites shop. You earned one regular cutomer.
                 </i>
               </p>
               <img
@@ -78,11 +76,11 @@ export default function Reviews() {
                 style={{
                   height: "6rem",
                   width: "6rem",
-                  borderRadius: "50%",
+                  borderRadius: "3.5vw",
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title" style={{ marginTop: "15px", color: "#ec9a34" }}>
+              <h5 className="card-title my-2" style={{  color: "#ec9a34" }}>
                 <i>Jennie</i>
               </h5>
               <i class="fa-solid fa-star"></i>
@@ -93,7 +91,8 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-        <div className="col">
+        
+        <div className="col col-12">
           <div className="card" style={myStyle}>
             <img
               src={qoutes}
@@ -113,11 +112,11 @@ export default function Reviews() {
                 style={{
                   height: "6rem",
                   width: "6rem",
-                  borderRadius: "50%",
+                  borderRadius: "3.5vw",
                   objectFit: "cover",
                 }}
               />
-              <h5 className="card-title" style={{ marginTop: "15px", color: "#ec9a34" }}>
+              <h5 className="card-title my-2" style={{ color: "#ec9a34" }}>
                 <i>Kai</i>
               </h5>
               <i class="fa-solid fa-star"></i>
