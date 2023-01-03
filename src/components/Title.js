@@ -1,5 +1,5 @@
 import React from 'react';
-import coffeeHome from "../assets/images/coffee-cup.png";
+import coffeeHome from "../assets/images/main1.png";
 
 
 export default function Title() {

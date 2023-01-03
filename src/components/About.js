@@ -31,7 +31,7 @@ export default function About() {
               <h2 class="card-title mx-2 my-3" style={{ color: "#ec9a34"}}>
                 <i>What Makes Our Coffee Special?</i>
               </h2>
-              <p class="card-text mx-2 my-3" style={{fontSize: "1.2vw"}}>
+              <p class="card-text mx-2 my-3" style={{fontSize: "1.1vw"}}>
                 <i>
                   The word "bubble bee coffeèin" is the combination of latin
                   roots, bee meaning "self", and coffeèin meaning "to discover".

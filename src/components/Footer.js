@@ -41,8 +41,8 @@ export default function Footer() {
                 </div>      
                 <div class="col col-6">
                     <div class="row mx-3">      
-                        <div class="col col-sm-4 align-self-center my-4" style={{alignText: "center"}}>
-                            <h5 style={{ color: "#ec9a34"}}><b><i>Connect Us On</i></b></h5>
+                        <div class="col col-sm-4 my-4 mx-3" style={{alignText: "center"}}>
+                            <h5 style={{marginLeft: "9%", color: "#ec9a34"}}><b><i>Connect Us On</i></b></h5>
                             <div class="text-center">
                                 <a style={{color: "white"}} class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
                                 <a style={{color: "white"}} class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
@@ -55,7 +55,7 @@ export default function Footer() {
                 
                         <div class="col col-sm-4 my-4 mx-5">
                             <h5 style={{ color: "#ec9a34"}}><b><i> We Accept All Credit Cards</i></b></h5>
-                            <div class="footer__cards">
+                            <div class="col-12 footer__cards">
                                 <img src={card1} alt="" class="footer__card"/>
                                 <img src={card2} alt="" class="footer__card"/>
                                 <img src={card3} alt="" class="footer__card"/>

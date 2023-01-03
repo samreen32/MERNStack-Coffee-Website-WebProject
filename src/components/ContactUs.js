@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import coffeeHome from "../assets/images/main1.png";
+import coffeeHome from "../assets/images/main.png";
 import Footer from "./Footer";
 import home from "../assets/images/home2.jpg";
 
@@ -16,7 +16,6 @@ export default function ContactUs() {
   return (
     <>
     <div style={myStyle}>
-
       <header class="jumbotron">
         <div
           class="container"

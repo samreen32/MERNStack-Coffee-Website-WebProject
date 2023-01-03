@@ -14,6 +14,8 @@ app.use(express.json());
 
 //Available Routes
 app.use('/api/auth', require('./routes/auth'));  
+app.use('/api/carts', require('./routes/carts'));
+
 
 app.listen(port, () => {
   console.log(`Coffee Application backend listening on port ${port}`)
