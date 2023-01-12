@@ -2,7 +2,7 @@ import React from "react";
 import aboutImg from "../assets/images/about-img.jpeg";
 import about from "../assets/images/img.jpg";
 
-export default function About() {
+export default function AboutHome() {
   const myStyle = {
     backgroundImage: `url(${about})`,
     backgroundAttachment: "fixed",

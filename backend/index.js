@@ -5,7 +5,7 @@ const cors = require('cors');
 connectToMongo();
 
 const app = express();
-//const port = 3000    ... only react app will run on port 3000.
+ 
 const port = 5000    
 app.use(cors());
 

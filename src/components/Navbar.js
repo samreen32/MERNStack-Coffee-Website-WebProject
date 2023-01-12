@@ -3,7 +3,7 @@ import "../App.css";
 import logo from "../assets/images/heart.png";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Navbar({setShow, size }) {
  
   let location = useLocation();
   let redirect = useNavigate();
@@ -61,7 +61,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <Link className={`nav-link ${location.pathname==="/About"?"active":""}`} to="/About"
+                  <Link className={`nav-link ${location.pathname==="/AboutUs"?"active":""}`} to="/AboutUs"
                  >
                     <i className="fa-solid fa-eject fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
@@ -70,21 +70,21 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item mx-1">
-                  <Link className={`nav-link ${location.pathname==="/Menu"?"active":""}`} to="/Menu">
-                    <i className="fa-solid fa-bars fa-xl mx-2 my-2"></i>
+                  <Link className={`nav-link ${location.pathname==="/MainMenu"?"active":""}`} to="/MainMenu">
+                    <i className="fa-solid fa-bell-concierge fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Menu</i>
                     </h6>
                   </Link>
                 </li>
-                <li className="nav-item mx-1">
+                {/* <li className="nav-item mx-1">
                   <Link className={`nav-link ${location.pathname==="/Service"?"active":""}`} to="/Service">
                     <i className="fa-solid fa-bell-concierge fa-xl mx-2 my-2"></i>
                     <h6 className="my-1">
                       <i>Service</i>
                     </h6>
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item mx-1">
                   <Link className={`nav-link ${location.pathname==="/Review"?"active":""}`} to="/Review">
                     <i className="fa-solid fa-comment fa-xl mx-2 my-2"></i>
@@ -123,7 +123,7 @@ export default function Navbar() {
                   </form> : 
                   <form class="d-flex mx-4">
                     <li className="col-4 col-sm-4 nav-item mx-2">
-                      <Link className="nav-link" to="/">
+                      <Link className={`nav-link ${location.pathname==="/Carts"?"active":""}`} to="/Carts">
                         <div>
                           <i className="fa-solid fa-cart-shopping fa-2xl my-4"></i>
                         </div>

@@ -1,9 +1,9 @@
 import "../App.css";
 import home from "../assets/images/img.jpg";
-import About from "./About";
+import AboutHome from "./AboutHome";
 import Slider from "./Slider";
-import Menu from "./Menu";
-import Reviews from "./Reviews";
+import MenuHome from "./MenuHome";
+import ReviewsHome from "./ReviewsHome";
 import Footer from "./Footer";
 import Title from "./Title";
 
@@ -22,9 +22,9 @@ function App() {
       <div style={myStyle}>
         <Title />
         <Slider />
-        <About />
-        <Menu />
-        <Reviews />
+        <AboutHome />
+        <MenuHome />
+        <ReviewsHome />
         <div style={{marginTop: "20%"}}>
         <Footer />
 

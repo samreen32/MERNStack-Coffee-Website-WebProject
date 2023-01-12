@@ -7,7 +7,7 @@ import menu4 from "../assets/images/menu-4.png";
 import menu5 from "../assets/images/menu-5.png";
 import menu6 from "../assets/images/menu-6.png";
 
-export default function Menu() {
+export default function MenuHome() {
   const myStyle = {
     // backgroundImage: `url(${about})`,
     backgroundColor: "black",

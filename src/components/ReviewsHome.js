@@ -4,7 +4,7 @@ import pic1 from "../assets/images/pic-1.png";
 import pic2 from "../assets/images/pic-2.png";
 import pic3 from "../assets/images/pic-3.png";
 
-export default function Reviews() {
+export default function ReviewsHome() {
   const myStyle = {
     backgroundColor: "black",
     backgroundAttachment: "fixed",
